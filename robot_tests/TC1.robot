@@ -21,7 +21,7 @@ LoginTest
 
 *** Keywords ***
 Navigate to site
-	Open Browser	https://demo.opencart.com/		Chrome    executable_path=../drivers/chromedriver.exe
+	Open Browser	https://demo.opencart.com/		Chrome   
 
 
 Set values in form

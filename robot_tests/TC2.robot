@@ -14,7 +14,7 @@ Temperature Converter Page Test
 
 *** Keywords ***
 Navigate to site
-	Open Browser	https://www.theonlineconverter.co.uk/temperature-converter//		Chrome    executable_path=../drivers/chromedriver.exe
+	Open Browser	https://www.theonlineconverter.co.uk/temperature-converter//		Chrome
 
 Verify Page Loads Successfully
     Title Should Be     Convert Temeperature | Degrees Celsius to Fahrenheit | Online Converter
