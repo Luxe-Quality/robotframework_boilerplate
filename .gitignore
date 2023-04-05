@@ -23,6 +23,7 @@ wheels/
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
+.idea/
 .installed.cfg
 *.egg
 MANIFEST
@@ -36,6 +37,12 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Logs and reports
+reports/
+log.html
+report.html
+output.xml
 
 # Unit test / coverage reports
 htmlcov/
